@@ -1,0 +1,217 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "salir",
+            "cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "necesito ayuda",
+            "ayuda con los comandos",
+            "ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "no más",
+            "detente",
+            "para"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "genero",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "name": "CustomGenreIntent",
+          "samples": [
+            "recomiendame un juego de {genero}"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "plataforma",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "name": "CustomPlatformIntent",
+          "samples": [
+            "recomiendame un juego para {plataforma}",
+            "recomiendame un juego para la plataforma {plataforma}",
+            "recomiendame un juego de la plataforma {plataforma}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "desarrollador",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "name": "CustomDeveloperIntent",
+          "samples": [
+            "recomiendame un juego creado por {desarrollador}",
+            "recomiendame un juego desarrollado por {desarrollador}",
+            "recomiendame un juego hecho por {desarrollador}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "clasificacion",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "name": "CustomRatingIntent",
+          "samples": [
+            "recomiendame un juego clasificacion {clasificacion}",
+            "recomiendame un juego pensado para {clasificacion}",
+            "recomiendame un juego hecho para {clasificacion}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "RandomCustomIntent",
+          "samples": [
+            "recomiendame un juego al azar",
+            "recomiendame un juego"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "genero",
+              "type": "AMAZON.Genre"
+            },
+            {
+              "name": "plataforma",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "name": "CustomGenrePlatformIntent",
+          "samples": [
+            "recomiendame un juego para la plataforma {plataforma} del genero {genero}",
+            "recomiendame un juego del genero {genero} para la plataforma {plataforma}",
+            "recomiendame un juego para {plataforma} del genero {genero}",
+            "recomiendame un juego del genero {genero} para {plataforma}",
+            "recomiendame un juego de la plataforma {plataforma} de {genero}",
+            "recomiendame un juego de {genero} para la plataforma {plataforma}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "genero",
+              "type": "AMAZON.Genre"
+            },
+            {
+              "name": "clasificacion",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "name": "CustomGenreRatingIntent",
+          "samples": [
+            "recomiendame un juego de clasificacion para {clasificacion} del genero {genero}",
+            "recomiendame un juego del genero {genero} de clasificacion para {clasificacion}",
+            "recomiendame un juego de clasificacion para {clasificacion} de {genero}",
+            "recomiendame un juego de {genero} de clasificacion para {clasificacion}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "genero",
+              "type": "AMAZON.Genre"
+            },
+            {
+              "name": "desarrollador",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "name": "CustomGenreDeveloperIntent",
+          "samples": [
+            "recomiendame un juego desarrollado por {desarrollador} del genero {genero}",
+            "recomiendame un juego del genero {genero} desarrollado por {desarrollador}",
+            "recomiendame un juego desarrollado por {desarrollador} de {genero}",
+            "recomiendame un juego de {genero} desarrollado por {desarrollador}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "plataforma",
+              "type": "AMAZON.Corporation"
+            },
+            {
+              "name": "clasificacion",
+              "type": "AMAZON.Genre"
+            }
+          ],
+          "name": "CustomPlatformRatingIntent",
+          "samples": [
+            "recomiendame un juego de clasificacion para {clasificacion} para la plataforma {plataforma}",
+            "recomiendame un juego para la plataforma {plataforma} de clasificacion para {clasificacion}",
+            "recomiendame un juego de clasificacion para {clasificacion} para {plataforma}",
+            "recomiendame un juego para {plataforma} de clasificacion para {clasificacion}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "plataforma",
+              "type": "AMAZON.Corporation"
+            },
+            {
+              "name": "desarrollador",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "name": "CustomPlatformDeveloperIntent",
+          "samples": [
+            "recomiendame un juego desarrollado por {desarrollador} para {plataforma}",
+            "recomiendame un juego para {plataforma} desarrollado por {desarrollador}",
+            "recomiendame un juego desarrollado por {desarrollador} para la plataforma {plataforma}",
+            "recomiendame un juego para la plataforma {plataforma} desarrollado por {desarrollador}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "clasificacion",
+              "type": "AMAZON.Genre"
+            },
+            {
+              "name": "desarrollador",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "name": "CustomRatingDeveloperIntent",
+          "samples": [
+            "recomiendame un juego desarrollado por {desarrollador} de clasificacion para {clasificacion}",
+            "recomiendame un juego de clasificacion para {clasificacion} desarrollado por {desarrollador}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "recomendacion de juegos"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:698235122832:function:53cd4ae2-139d-4a8b-a0a0-95e4bac3d8ba:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:698235122832:function:53cd4ae2-139d-4a8b-a0a0-95e4bac3d8ba:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:698235122832:function:53cd4ae2-139d-4a8b-a0a0-95e4bac3d8ba:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:698235122832:function:53cd4ae2-139d-4a8b-a0a0-95e4bac3d8ba:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "es-MX": {
+          "name": "RecomendacionJuegosPython"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
